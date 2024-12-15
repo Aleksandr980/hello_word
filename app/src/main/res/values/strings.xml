@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="text_1">Все места свободны</string>
+    <string name="text_2">Осталось мест:</string>
+    <string name="text_3">Пассажиров слишком много!</string>
+    <string name="reset">Reset</string>
+    <string name="textviewCounter">Counter</string>
+    <string name="Balance">Balance</string>
+
+</resources>

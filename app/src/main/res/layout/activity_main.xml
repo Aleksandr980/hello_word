@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/loading_passengers_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#33FF00"
+        android:visibility="visible"
+
+        />
+    <TextView
+        android:id="@+id/loading_passengers_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000099"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/loading_passengers_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#CC0000"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/button_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@null"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/textviewCounter"
+        android:textColor="#7F7878"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center|top"
+        android:background="#7F7878"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="#7F7878"
+        android:padding="16dp"
+        android:src="@drawable/outline_add_24"
+        tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="#7F7878"
+        android:padding="16dp"
+        android:src="@drawable/outline_remove_24"
+        tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/button_balance"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:background="@null"
+        android:gravity="center"
+        android:text="@string/Balance"
+        android:textColor="#000099"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:ignore="RtlHardcoded" />
+</FrameLayout>
